@@ -3344,6 +3344,7 @@
     menuTitle.textContent = `Hi, ${playerName}!`;
     closeModal(modalName);
     show("menu");
+    renderMenu();   // re-render with correct gender so own category image is correct
   }
 
   function submitPass(){
